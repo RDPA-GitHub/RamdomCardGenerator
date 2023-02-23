@@ -11,7 +11,7 @@ function devuelveNumero() {
 
   if (positionNumero == 8 ) {   // condicion para mejorar la posicion del numero 10
     document.getElementById("numero").style.left = "32%";
-  }else if (positionNumero < 8 || positionNumero > 8) {   // condicion para mejorar la posicion del numero 10
+  }else {  
     document.getElementById("numero").style.left = "38%";
   }
   document.getElementById("numero").innerHTML = numero[positionNumero];
